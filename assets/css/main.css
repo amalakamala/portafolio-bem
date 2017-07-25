@@ -74,6 +74,28 @@
     margin-left: 30px;
     display: inline-block; }
 
+.hobbies {
+  padding: 30px 0;
+  background-color: #EBEBEB; }
+  .hobbies__titulo {
+    padding-bottom: 30px;
+    text-align: center; }
+    .hobbies__titulo--text {
+      color: #182938;
+      font-weight: 700; }
+  .hobbies__description {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .hobbies__description__text--titulo {
+      margin: 0;
+      color: #34C86D;
+      font-weight: 400; }
+    .hobbies__description__text--bajada {
+      font-weight: 700;
+      color: #182938; }
+    .hobbies__description__text--parrafo {
+      font-size: 13px; }
+
 * {
   margin: 0;
   padding: 0;

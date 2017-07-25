@@ -99,4 +99,30 @@
 .hobbies{
 	padding: 30px 0;
 	background-color: $gris;
+	&__titulo{
+		padding-bottom:30px;
+		text-align:center;
+		&--text{
+			color:$blue;
+			font-weight:700; 
+		}
+	}
+	&__description{
+		margin-top:10px;
+		margin-bottom:10px;
+		&__text{
+			&--titulo{
+				margin:0;
+				color:$verde;
+				font-weight:400; 
+			}
+			&--bajada{
+				font-weight:700;
+				color:$blue;
+			}
+			&--parrafo{
+				font-size:13px;
+			}
+		}
+	}
 }
