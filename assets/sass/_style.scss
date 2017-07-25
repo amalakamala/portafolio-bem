@@ -1,0 +1,97 @@
+.header{
+	.navbar-default{
+		background-color: $red;
+	    border-color: none;
+	    border: none;
+	    border-radius:0;
+	    height: 80px;
+	    margin-bottom: 0;
+	}
+	&__logo{
+		.navbar-brand{
+			padding: 6px 15px;
+		}
+		&--img{
+			background-color: #FFF;
+			width:100%;
+			border-radius:50%;			
+			width: 70px;
+		}
+	}	
+	.header__botonera{
+		margin-top: 10px;
+		margin-right: 100px;
+		.header__botonera__item--enlaces{
+			color: #FFF;
+			margin-left: 100px;			
+		}
+		.header__botonera__item--profile{
+			background-color: $blue;
+			margin: 10px;
+			padding: 5px 20px;
+			border-radius: 15px;
+		}	
+	}
+}
+
+.description{
+	background-color:$blue;
+		&__img{
+		background-color:$gris;
+		width:300px;
+		height:300px;
+		border-radius: 50%;
+		margin-top: 40px;
+		&--text{
+			position: relative;
+			font-size: 40px;
+			color: $blue;
+			top:110px;
+			left:100px;	
+			font-weight: 700; 	
+		}		
+	}
+
+	&__text{
+		margin-top: 20px;
+		margin-left:20px;
+		color: #FFF;
+		font-weight: 200;
+		padding: 30px 20px;
+		&--titulo{
+			color: $verde;
+			font-weight: 200;
+			font-size: 40px;		
+		}
+		&--bajada{
+			font-size: 25px;				
+		}
+		&--parrafo{
+			font-size: 18px;
+			line-height: 30px;
+		}
+		&__btn{
+			margin-top: 20px;
+			background-color:$verde;
+			width: 250px;
+			height: 50px;
+			padding: 5px 10px;
+			border-radius:40px;
+			&--text{
+				color:#FFF;
+				font-size: 20px;
+				position:relative;
+				top:6px;
+				left:68px; 
+			}
+		}
+	}
+	&__redesociales{
+		&--li{
+			margin: 80px 0;
+			margin-left: 30px;
+			display: inline-block;
+		}
+		
+	}
+}

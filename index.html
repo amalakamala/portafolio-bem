@@ -4,55 +4,138 @@
 	<meta charset="UTF-8">
 	<title>Portafolio Bem</title>
 	<!-- viewport -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- CSS-->
-	<link rel="stylesheet" href="assets/css/">		
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
     <!--favicon-->
 	<link rel="icon" href="assets/img/icon.ico" type="image/x-icon"/>    	
 	<!-- Fontawesome -->
-	<script src="https://use.fontawesome.com/4154d90246.js"></script>	
+	<script src="https://use.fontawesome.com/4154d90246.js"></script>
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+	<!-- CSS-->
+	<link rel="stylesheet" href="assets/css/main.css">			
 </head>
 <body>
 	<!-- Header -->
-	<header>
-		<div class="header">
-			<div class="header__logo">
-				<img class="header__logo--img" src="" alt="">
-			</div>
-			<div class="header__profile">
-				<i class="fa fa-user" aria-hidden="true"></i>
-				<p>PROFILE</p>
-			</div>
-			<ul class="header__botonera">
-				<li class="header__botonera__item">
-					<a class="">
-						<i class="fa fa-trophy" aria-hidden="true"></i>
-						<p>SKILLS</p>
-					</a>	
-				</li>
-				<li class="header__botonera__item">
-					<a class="">
-						<i class="fa fa-picture-o" aria-hidden="true"></i>
-						<p>WORK</p>
-					</a>	
-				</li>
-				<li class="header__botonera__item">
-					<a class="">
-						<i class="fa fa-file-text-o" aria-hidden="true"></i>
-						<p>RESUME</p>
-					</a>	
-				</li>				
-			</ul>
-		</div>
+	<header class="header">
+		<nav class="navbar navbar-default">
+		 	<div class="container">
+			  	<!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      	<button type="button" id="menu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			     	</button>		
+			     	<div class="navbar-header header__logo">
+		  				<a class="navbar-brand hidden-sm hidden-xs" href="#"><img class="header__logo--img" src="assets/img/logo.png" alt=""></a>
+			    	</div>	      			
+			    </div>			    
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    <ul class="nav navbar-nav navbar-right header__botonera">
+				    	<li class="header__botonera__item">
+	      					<a class="header__botonera__item--enlaces header__botonera__item--profile"  href="#">
+								<i class="fa fa-user" aria-hidden="true"></i> PROFILE
+							</a>
+	      				</li> 
+	      				<li class="header__botonera__item">
+	      					<a class="header__botonera__item--enlaces" href="#">
+	      						<i class="fa fa-trophy" aria-hidden="true"></i> SKILLS
+							</a>
+	      				</li>  
+	      				<li class="header__botonera__item">
+	      					<a class="header__botonera__item--enlaces" href="#">
+								<i class="fa fa-picture-o" aria-hidden="true"></i> WORK
+							</a>
+	      				</li>  
+	      				<li class="header__botonera__item">
+	      					<a class="header__botonera__item--enlaces" href="#">
+								<i class="fa fa-file-text-o" aria-hidden="true"></i> RESUME
+							</a>
+	      				</li> 	      					      				   
+				    </ul>	    
+			    </div><!-- /.navbar-collapse -->     
+		  	</div><!-- /.container-fluid -->
+		</nav>
 	</header>
 	<!-- Section -->
-	<section>
-		
+	<section class="description">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-2 col-md-4 description__img">
+					<p class="description__img--text">mini</p>
+				</div>
+				<div class="col-md-5 description__text text-left">
+					<h2 class="description__text--titulo">Juan Dela Cruz</h2>
+					<h5  class="description__text--bajada">Web & Graphics Designer</h5>
+					<p class="description__text--parrafo">Hello I am Juan Dela Cruz Web and Graphics Designer from Philipines. If yopu have something to be done just call my name and I will be there. :-)</p>
+					<div class="description__text__btn">
+						<a class="description__text__btn--text" href="#">
+							<i class="fa fa-paper-plane" aria-hidden="true"></i> HIRE ME
+						</a>
+					</div>
+				</div>				
+			</div>
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6">
+					<ul class="description__redesociales">
+						<li class="description__redesociales--li redesociales__facebook">
+							<a href="">
+								<img src="assets/img/fb.png" alt="">
+							</a>
+						</li>
+						<li class="description__redesociales--li redesociales__twitter">
+							<a href="">
+								<img src="assets/img/tw.png" alt="">
+							</a>
+						</li>
+						<li class="description__redesociales--li redesociales__google">
+							<a href="">
+								<img src="assets/img/go.png" alt="">
+							</a>
+						</li>
+						<li class="description__redesociales--li redesociales__pinterest">
+							<a href="">
+								<img src="assets/img/pin.png" alt="">
+							</a>
+						</li>	
+						<li class="description__redesociales--li redesociales__gusano">
+							<a href="">
+								<img src="assets/img/st.png" alt="">
+							</a>
+						</li>
+						<li class="description__redesociales--li redesociales__dribbble">
+							<a href="">
+								<img src="assets/img/dr.png" alt="">
+							</a>
+						</li>																		
+					</ul>
+				</div>				
+			</div>
+		</div>
 	</section>
-
-
-
-
-
+	<!-- Section Agregado -->
+	<section class="hobbies">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-5">
+					
+				</div>
+				<div class="col-md-5">
+					
+				</div>				
+			</div>
+		</div>
+	</section>
+	
+	<!-- google maps -->
+	<script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD_fuPru5mi4Ps-Vl18xIixGXV9xX5LDUQ&callback=initMap&libraries=places"></script>
+	<!-- bootstrap -->	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- JS -->	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
 </body>
 </html>

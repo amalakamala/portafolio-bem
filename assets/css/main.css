@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
+/*------ COLORES ------*/
+.header .navbar-default {
+  background-color: #EB3639;
+  border-color: none;
+  border: none;
+  border-radius: 0;
+  height: 80px;
+  margin-bottom: 0; }
+.header__logo .navbar-brand {
+  padding: 6px 15px; }
+.header__logo--img {
+  background-color: #FFF;
+  width: 100%;
+  border-radius: 50%;
+  width: 70px; }
+.header .header__botonera {
+  margin-top: 10px;
+  margin-right: 100px; }
+  .header .header__botonera .header__botonera__item--enlaces {
+    color: #FFF;
+    margin-left: 100px; }
+  .header .header__botonera .header__botonera__item--profile {
+    background-color: #182938;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 15px; }
+
+.description {
+  background-color: #182938; }
+  .description__img {
+    background-color: #EBEBEB;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 40px; }
+    .description__img--text {
+      position: relative;
+      font-size: 40px;
+      color: #182938;
+      top: 110px;
+      left: 100px;
+      font-weight: 700; }
+  .description__text {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #FFF;
+    font-weight: 200;
+    padding: 30px 20px; }
+    .description__text--titulo {
+      color: #34C86D;
+      font-weight: 200;
+      font-size: 40px; }
+    .description__text--bajada {
+      font-size: 25px; }
+    .description__text--parrafo {
+      font-size: 18px;
+      line-height: 30px; }
+    .description__text__btn {
+      margin-top: 20px;
+      background-color: #34C86D;
+      width: 250px;
+      height: 50px;
+      padding: 5px 10px;
+      border-radius: 40px; }
+      .description__text__btn--text {
+        color: #FFF;
+        font-size: 20px;
+        position: relative;
+        top: 6px;
+        left: 68px; }
+  .description__redesociales--li {
+    margin: 80px 0;
+    margin-left: 30px;
+    display: inline-block; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
